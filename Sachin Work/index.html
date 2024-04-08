@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Gurjar DON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class = "bulb"></div>
+        <button class = "btn">ON/OFF</button>
+    <script>
+        var bulb = document.querySelector('.bulb');
+var button = document.querySelector('.btn');
+let flag = 0;
+button.addEventListener('click', function(){
+    if(flag == 0){
+        bulb.style.backgroundColor = "yellow";
+        flag = 1;
+    }
+    
+    else{
+        bulb.style.backgroundColor = "white";
+        flag = 0;
+    }
+})
+    </script>
+</body>
+</html>

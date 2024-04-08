@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bulb{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 5px;
+    left: 13px;
+    background-color: salmon;
+    border-radius: 70%;
+}
+.btn{
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
